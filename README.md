@@ -28,11 +28,19 @@ The Fake News Detection System is a machine learning project aimed at automatica
    ```bash
    pip install -r requirements.txt
 
+## Usage
+Embark on a journey of code exploration by opening the gates to the `fake_news_detection.py` file in your cherished code editor. Navigating the seas of data, adjust the compass to the correct file paths for the CSV files (`Fake.csv` and `True.csv`). Hoist the sails and set forth on the voyage to preprocess the data, train the classifiers, and evaluate the valiant models. Cast your own tale by wielding the `manual_testing()` function to test news articles interactively, separating the wheat from the chaff.
+
 ## Dataset
 Discover the truth in news! Dive into a dataset containing both real and fake news articles. The treasure trove of information lies within the CSV files `Fake.csv` and `True.csv`. Uncover the nuances of news articles and ensure the dataset's structure aligns seamlessly with the task at hand.
 
-## Usage
-Embark on a journey of code exploration by opening the gates to the `fake_news_detection.py` file in your cherished code editor. Navigating the seas of data, adjust the compass to the correct file paths for the CSV files (`Fake.csv` and `True.csv`). Hoist the sails and set forth on the voyage to preprocess the data, train the classifiers, and evaluate the valiant models. Cast your own tale by wielding the `manual_testing()` function to test news articles interactively, separating the wheat from the chaff.
+## Algorithms
+Unleash the power of machine learning with battle-tested algorithms at your fingertips:
+- **Logistic Regression:** A stalwart in classification, it delves into the depths of data to discern truth from falsehood.
+- **Decision Tree Classifier:** Like an ancient oracle, it navigates the branches of knowledge, making informed decisions.
+- **Gradient Boosting Classifier:** The champion of ensembles, it boosts the forces of classification with an unwavering spirit.
+- **Random Forest Classifier:** A symphony of randomness and order, it weaves a tapestry of classification prowess.
+
 
 ## Results
 Witness the clash of titans as different classifiers are pitted against each other, battling for supremacy, guided by the North Star of accuracy and classification metrics. The epic unfolds through the lens of the `classification_report`, unveiling the depths of precision, the rise of recall, and the harmonious resonance of the F1-score.
